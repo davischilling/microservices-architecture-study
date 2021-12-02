@@ -1,0 +1,1 @@
+{"version":3,"file":"new-payment.js","sourceRoot":"","sources":["../../src/validations/new-payment.ts"],"names":[],"mappings":";;;AAAA,yDAAwC;AAE3B,QAAA,oBAAoB,GAAG;IAClC,wBAAI,CAAC,OAAO,CAAC;SACV,GAAG,EAAE;SACL,OAAO,EAAE;IACZ,wBAAI,CAAC,SAAS,CAAC;SACd,GAAG,EAAE;SACL,OAAO,EAAE;CACX,CAAA"}

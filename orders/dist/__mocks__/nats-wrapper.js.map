@@ -1,0 +1,1 @@
+{"version":3,"file":"nats-wrapper.js","sourceRoot":"","sources":["../../src/__mocks__/nats-wrapper.ts"],"names":[],"mappings":";;;AAAa,QAAA,WAAW,GAAG;IACzB,MAAM,EAAE;QACN,OAAO,EAAE,IAAI,CAAC,EAAE,EAAE,CAAC,kBAAkB,CACnC,CAAC,OAAe,EAAE,IAAY,EAAE,QAAoB,EAAE,EAAE;YACtD,QAAQ,EAAE,CAAA;QACZ,CAAC,CACF;KACF;CACF,CAAA"}

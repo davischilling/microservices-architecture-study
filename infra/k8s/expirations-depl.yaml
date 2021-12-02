@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: expirations-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: expirations
+  template:
+    metadata:
+      labels:
+        app: expirations
+    spec:
+      containers:
+        - name: expirations
+          image: dbatistaschilling/expirations
+          env:
+            - name: NATS_CLIENT_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: NATS_URL
+              value: 'http://nats-srv:4222'
+            - name: NATS_CLUSTER_ID
+              value: ticketing
+            - name: REDIS_HOST
+              value: expirations-redis-srv
